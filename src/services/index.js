@@ -52,21 +52,3 @@ export function getCharacters(ids) {
   const url = `${API_ENDPOINT}/character/${ids}`;
   return fetch(url, { method: 'GET' }).then(handleResponse);
 }
-
-// export function getExngSwapWithPriceService(data) {
-//   const url_swap = `${CNF_API_TOTLE.ENDPOINT}/swap`;
-//   const url_coins = `${CNF_API_SOLIDEFI.ENDPOINT}/usd/?source=${data.swap.sourceAsset}&destination=${data.swap.destinationAsset}`;
-
-//   return Promise.all([
-//     fetch(url_swap, {
-//       method: 'POST',
-//       headers: { 'content-type': 'application/json' },
-//       body: JSON.stringify(data),
-//     }).then(handleResponse),
-//     fetch(url_coins, { method: 'GET', mode: 'cors' }).then(handleResponse),
-//   ]).then(data => {
-//     const response = data[0];
-//     response.response['price'] = data[1];
-//     return response;
-//   });
-// }
