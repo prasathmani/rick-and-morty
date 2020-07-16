@@ -1,0 +1,12 @@
+@import 'assets/styles/_variables.scss';
+
+.p-home {
+  min-height: 520px;
+  &__title {
+    color: $white;
+  }
+
+  &__load-more {
+    text-align: center;
+  }
+}

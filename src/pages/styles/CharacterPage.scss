@@ -1,0 +1,10 @@
+@import 'assets/styles/_variables.scss';
+
+.p-character {
+  min-height: 520px;
+  .featured-content {
+    label {
+      font-weight: bold;
+    }
+  }
+}

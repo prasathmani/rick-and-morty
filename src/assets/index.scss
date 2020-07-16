@@ -1,0 +1,18 @@
+@import "../../node_modules/bulma/bulma";
+
+@import "./styles/variables";
+@import "./styles/mixins";
+@import "./styles/brackpoints";
+@import "./styles/global";
+@import "./styles/typography";
+
+body {
+  margin: 0;
+  background: $body-bg;
+  font-family: $font-family;
+  font-size: $font-size-base;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: white;
+  height: 100%;
+}

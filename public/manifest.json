@@ -1,5 +1,5 @@
 {
-  "short_name": "Rick and Morty Content",
+  "short_name": "Rick-Morty",
   "name": "Rick and Morty Content",
   "icons": [
     {
@@ -8,14 +8,9 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "404-image.png",
       "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "748x678"
     }
   ],
   "start_url": ".",
